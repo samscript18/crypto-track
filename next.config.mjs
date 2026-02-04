@@ -5,15 +5,8 @@ const nextConfig = {
 		remotePatterns: [
 			{
 				protocol: 'https',
-				hostname: 'res.cloudinary.com',
-			},
-			{
-				protocol: 'https',
-				hostname: 'encrypted-tbn0.gstatic.com',
-			},
-			{
-				protocol: 'https',
-				hostname: 'lh3.googleusercontent.com',
+				hostname: 'coin-images.coingecko.com',
+				pathname: '/**',
 			},
 		],
 	},

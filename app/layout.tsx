@@ -4,12 +4,13 @@ import Providers from '@/lib/providers/providers';
 import { sora } from '@/lib/utils/fonts';
 import { Suspense } from 'react';
 
+
 export const metadata: Metadata = {
 	title: {
-		default: 'GrowBuddy',
-		template: 'GrowBuddy | %s',
+		default: 'CryptoTrack - Digital Assets',
+		template: 'CryptoTrack | %s',
 	},
-	description: 'GrowBuddy - Expert Agricultural Guidance for Modern Farmers',
+	description: 'CryptoTrack - Track cryptocurrency prices in real-time',
 };
 
 export default function RootLayout({
